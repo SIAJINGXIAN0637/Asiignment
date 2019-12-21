@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Main2Activity">
+
+
+
+    <TextView
+        android:id="@+id/product_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Oppo Brand"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/a_5s"
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/a5s" />
+
+        <ImageView
+            android:id="@+id/a9_2020"
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/a92020"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+
+        <ImageView
+            android:id="@+id/reno_2"
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/reno2" />
+
+        <ImageView
+            android:id="@+id/reno_10x"
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/reno10x"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+    </LinearLayout>
+
+</RelativeLayout>
